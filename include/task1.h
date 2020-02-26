@@ -12,13 +12,13 @@ bool comp<char*>(char* left, char* right) {
 }
 
 template <class T>
-void merge(T* arr, int size)
+void msort(T* arr, int size)
 {
 	int middle = size / 2;
 	if (size == 1)
 		return;
-	merge(arr, middle);
-	merge(arr + middle, size - middle);
+	msort(arr, middle);
+	msort(arr + middle, size - middle);
 	T* buf = new T[size];
 	int left = 0;
 	int right = middle;
