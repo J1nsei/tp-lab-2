@@ -18,5 +18,5 @@ int main() {
 	for (int i = 0; i < N; i++) {
 		cout << buf[i] <<endl;
 	}
-	system("pause");
+	return 0;
 }

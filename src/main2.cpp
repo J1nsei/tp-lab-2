@@ -1,4 +1,3 @@
-/*
 #include "task2.h"
 #include <iostream>
 
@@ -17,6 +16,5 @@ int main() {
 	for (int i = 0; i < N; i++) {
 		cout << Arr[i]<<endl;
 	}
-	system("pause");
+	return 0;
 }
-*/
